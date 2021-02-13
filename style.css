@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+}
+
+div#building {
+  background-color: darkgrey;
+  flex-direction: column;
+  width: 500px;
+  height: 700px;
+  flex-wrap: wrap;
+  flex-flow: center;
+}
+
+.window {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  flex-wrap: wrap;
+  display: inline-flex;
+  margin: 30px 30px 20px 30px;
+  text-align: center;
+}
+
+.window-on {
+  background-color: gold;
+}
+
+.buttons {
+  flex-direction: column;
+  width: 100px;
+}
+
+.btn {
+  margin: 40px 0px 0px 20px;
+  padding: 5px;
+  width: 150px;
+}
+
+p {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Helvetica, sans-serif;
+}
