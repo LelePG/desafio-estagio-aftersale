@@ -1,22 +1,23 @@
 body {
   display: flex;
   justify-content: center;
-  background-color: lightblue;
+  background-color: rgb(123, 172, 189);
 }
 
 div#building {
-  background-color: darkgrey;
+  background-color: rgb(128, 124, 124);
   flex-direction: column;
   width: 500px;
   height: 700px;
   flex-wrap: wrap;
   flex-flow: center;
+  margin-top: 30px;
 }
 
 .window {
   width: 100px;
   height: 100px;
-  background-color: black;
+  background-color: rgb(49, 49, 49);
   flex-wrap: wrap;
   display: inline-flex;
   margin: 30px 30px 20px 30px;
