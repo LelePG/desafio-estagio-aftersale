@@ -14,6 +14,7 @@ let turnOff = function () {
 
 //Inicialization code to turn all the windows on or off
 
+//if browser suports geolocation
 if (navigator.geolocation) {
   //getting geolocation
   navigator.geolocation.getCurrentPosition(function (position) {
@@ -56,7 +57,7 @@ if (navigator.geolocation) {
     ) {
       turnOn();
     }
-    window.alert("Página carregada com sucesso :D");
+    window.alert("Page sucessfully loaded :D");
   });
 }
 
