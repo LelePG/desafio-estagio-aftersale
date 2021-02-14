@@ -46,7 +46,7 @@ if (navigator.geolocation) {
     dateTimeSet.setUTCSeconds(Number(setTime[2]));
 
     let dateTimeNow = new Date();
-    //dateTimeNow.setHours(22);//Change this value to test
+    //dateTimeNow.setHours(22); //Change this value to test
 
     //If it is not day time
     if (

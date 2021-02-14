@@ -1,5 +1,7 @@
 # Desafio de estágio Front-end aftersale
 
+![](projeto.jpeg)
+
 ## O que é este projeto?
 
 Este projeto é uma interface gráfica simples desenvolvida utilizando HTML, CSS e Javascript simulando um prédio com doze janelas, que podem estar acesas ou apagadas de acordo com o horário do dia em que o usuário se encontra.
@@ -13,3 +15,6 @@ Após a inicialização da página, você pode acender janelas apagadas ou apaga
 
 Faça o download dos arquivos em formato zip e os descompacte.
 Para executar a aplicação, entre na pasta descompactada e abra o arquivo `index.html` clicando sobre ele duas vezes.
+Aguarde o pop-up que indica que a página foi carregada com sucesso, e já pode utilizar a aplicação.
+
+**IDE utilizada: Visual Studio Code**
